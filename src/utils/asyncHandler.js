@@ -1,4 +1,4 @@
-// Jab aap database se data mangwate hain, toh aap async/await use karte hain. Agar database band ho ya koi error aaye, toh Express ko pata nahi chalta
+ // Jab aap database se data mangwate hain, toh aap async/await use karte hain. Agar database band ho ya koi error aaye, toh Express ko pata nahi chalta
 // reusable function to handle async errors in express routes
 
 const asyncHandler=(requestHandler)=>{

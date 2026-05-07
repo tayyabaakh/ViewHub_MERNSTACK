@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon --exec node --experimental-specifier-resolution=node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,7 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cloudinary": "^2.10.0",
-    "cookieparser": "^0.1.0",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.1",
     "express": "^5.2.1",
